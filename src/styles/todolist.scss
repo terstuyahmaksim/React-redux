@@ -1,0 +1,21 @@
+.todolist {
+        
+    display: inline-block;
+    ol {
+        background-color: blue;
+        color: greenyellow;
+    }
+    ul {
+        list-style-type: none;
+        color: black;
+        li{
+            border-radius: 3px;
+            background-color: lightgray;
+            border: 1px solid gray;
+            &:hover {
+                background-color: lightblue;
+                color: red;
+            }
+        }
+    }
+}

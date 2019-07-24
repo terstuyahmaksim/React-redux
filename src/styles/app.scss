@@ -1,0 +1,11 @@
+.todo-root {
+  display: flex;
+  .list-view {
+      width: 50%;
+      background-color: pink;
+  }
+  .details-view {
+      width: 50%;
+      background-color: yellow;
+  }
+}

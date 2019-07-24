@@ -1,0 +1,65 @@
+
+.component-cotainer {
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  .btn{
+    outline: none;
+    background-color: beige;
+    font-family: sans-serif;
+    border: 1px solid;
+  }
+  
+  .edit-block{
+    padding: 10px 0;
+    display: block;
+
+    input, textarea {
+      width: 500px;
+      outline: none;
+      margin: 10px 0;
+      border-radius: 15px;
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+    .btn-container {
+      width:524px;
+
+      .conf{
+        padding: 5px 0 5px 10px;
+        width: 50%;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        font-size: 14px;
+        color: green;
+        border-color: green
+      }
+      .canc{
+        padding: 5px 10px 5px 0;
+        width: 50%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        font-size: 14px;
+        color: red;
+        border-color: red;
+      }
+    }
+  }
+
+  .edit{
+    border-radius: 5px;
+    font-size: 14px;
+    color: green;
+    border-color: green
+  }
+
+  .update {
+    border-radius: 5px;
+    font-size: 20px bold;
+    color: black;
+    border-color: black;
+  }
+}
+
+
+
